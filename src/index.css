@@ -1,7 +1,9 @@
 :root {
   --purple: #5854ea;
   --grey: grey;
+  --light-grey: #9ca3af;
   --green: #34d399;
+  --background-grey: #f4f4f5;
 }
 
 body {

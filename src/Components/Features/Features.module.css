@@ -1,0 +1,68 @@
+.container {
+  margin: 5rem;
+}
+
+.featuresHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuresHeading :nth-child(1) {
+  all: unset;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.featuresHeading :nth-last-child(1) {
+  color: grey;
+  text-align: center;
+}
+
+.featuresGridContainer {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin: 0rem 1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .featuresGridContainer {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 2rem;
+    margin: 0rem 1rem;
+  }
+}
+
+.featuresCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  background-color: var(--background-grey);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.featuresCardContainer :nth-child(1) {
+  padding: 0.5rem;
+}
+
+.featuresCardContainer :nth-child(2) {
+  color: var(--grey);
+  text-align: center;
+}
+
+.featuresCardContainer :nth-child(3) {
+  padding: 0.5rem;
+  color: var(--light-grey);
+  font-size: 0.8rem;
+  text-align: center;
+}
