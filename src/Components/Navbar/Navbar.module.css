@@ -1,0 +1,80 @@
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: none;
+  margin-top: 0.4rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.menuLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navigationOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navLink {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.navLinkSearch {
+  margin-top: 5px;
+}
+
+.line {
+  border: 1px solid lightgrey;
+  margin-top: 1rem;
+}
+
+.signIn {
+  all: unset;
+  padding: 0.5rem;
+}
+
+.signUp {
+  border: none;
+  background-color: #4f46e5;
+  padding: 0.8rem;
+  color: white;
+  border-radius: 2rem;
+}
+
+.unorderedList {
+  list-style: none;
+}
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul > li {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .navigationOptions {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
+@media screen and (min-width: 650px) {
+  .menuDisplay {
+    display: none;
+  }
+}
