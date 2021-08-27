@@ -1,0 +1,21 @@
+.companiesContainer {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.logoContainer {
+  width: auto;
+  padding: 1rem;
+}
+
+.logoContainer > img {
+  max-width: 3rem;
+  height: auto;
+}
