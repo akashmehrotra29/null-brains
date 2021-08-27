@@ -42,14 +42,6 @@
   padding: 0.5rem;
 }
 
-.signUp {
-  border: none;
-  background-color: #4f46e5;
-  padding: 0.8rem;
-  color: white;
-  border-radius: 2rem;
-}
-
 .unorderedList {
   list-style: none;
 }

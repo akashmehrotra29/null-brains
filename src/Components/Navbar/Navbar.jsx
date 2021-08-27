@@ -30,7 +30,7 @@ export const Navbar = () => {
         </div>
         <div>
           <button className={styles.signIn}>Sign In</button>
-          <button className={styles.signUp}>Sign Up</button>
+          <button className={`btn-primary`}>Sign Up</button>
         </div>
       </div>
       <div className={styles.line}></div>
