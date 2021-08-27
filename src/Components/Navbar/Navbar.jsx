@@ -1,5 +1,5 @@
 import styles from "./Navbar.module.css";
-import { BsSearch, BsJustify, BsLock } from "react-icons/bs";
+import { BsSearch, BsJustify } from "react-icons/bs";
 import { useState } from "react";
 
 export const Navbar = () => {

@@ -3,7 +3,7 @@ import styles from "./Companies.module.css";
 export const Companies = () => {
   return (
     <>
-      <div>
+      <div className={styles.container}>
         <div className={`${styles.companiesContainer} ${styles.heading}`}>
           TRUSTED BY TOP-LEADING COMPANIES
         </div>

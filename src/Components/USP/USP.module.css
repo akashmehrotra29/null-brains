@@ -1,0 +1,74 @@
+.uspContainer {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .uspContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+.columnImg1Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.columnImg1Container > img {
+  max-width: 23rem;
+  height: auto;
+}
+
+.columnImg2Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.columnImg2Container > img {
+  max-width: 23rem;
+  height: auto;
+}
+
+.columnText1Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 23rem;
+}
+
+.columnText1Container :nth-child(1) {
+  align-self: flex-start;
+}
+.columnText1Container > ul {
+  align-self: flex-start;
+  color: var(--grey);
+}
+
+.containerAlign2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.columnText2Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 23rem;
+}
+
+.columnText2Container :nth-child(1) {
+  align-self: flex-start;
+}
+.columnText2Container > ul {
+  align-self: flex-start;
+  color: var(--grey);
+}
