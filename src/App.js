@@ -1,4 +1,4 @@
-import { Navbar, Banner, Companies, USP, Features } from "./Components";
+import { Navbar, Banner, Companies, USP, Features, Team } from "./Components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Companies />
       <USP />
       <Features />
+      <Team />
     </div>
   );
 }
