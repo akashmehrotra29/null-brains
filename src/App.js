@@ -6,6 +6,7 @@ import {
   Features,
   Team,
   Blogs,
+  Footer,
 } from "./Components";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Features />
       <Team />
       <Blogs />
+      <Footer />
     </div>
   );
 }

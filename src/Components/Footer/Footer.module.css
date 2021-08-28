@@ -1,0 +1,22 @@
+.footerContainer {
+  margin-top: 5rem 2rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation > div {
+  padding: 0rem 1rem;
+  color: var(--light-grey);
+  font-size: 0.8rem;
+}
+
+.paddingTop1 {
+  padding-top: 1.5rem;
+}
+.paddingTop2 {
+  padding-top: 2rem;
+}
