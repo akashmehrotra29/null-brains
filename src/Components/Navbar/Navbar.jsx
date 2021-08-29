@@ -5,9 +5,8 @@ import { NavHashLink } from "react-router-hash-link";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  console.log(menuOpen);
   return (
-    <div>
+    <div className={styles.positionNav}>
       <div className={styles.navbarContainer}>
         <div className={styles.menuLogoContainer}>
           <div

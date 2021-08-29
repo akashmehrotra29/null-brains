@@ -1,7 +1,15 @@
+.positionNav {
+  position: sticky;
+  top: 0rem;
+  left: 0px;
+  background-color: white;
+}
+
 .navbarContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .menu {
