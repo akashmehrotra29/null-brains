@@ -1,27 +1,13 @@
-import {
-  Navbar,
-  Banner,
-  Companies,
-  USP,
-  Features,
-  Team,
-  Blogs,
-  Footer,
-} from "./Components";
+import Home from "./Pages/Home";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Banner />
-      <Companies />
-      <USP />
-      <Features />
-      <Team />
-      <Blogs />
-      <Footer />
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
     </div>
   );
 }
-
 export default App;

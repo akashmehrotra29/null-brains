@@ -50,7 +50,7 @@ const features = [
 export const Features = () => {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="features">
         <div className={styles.featuresHeading}>
           <h2>Our Features</h2>
           <div>Check out our list of awesome features below.</div>

@@ -3,7 +3,7 @@ import styles from "./Blogs.module.css";
 export const Blogs = () => {
   return (
     <>
-      <div className={styles.blogContainer}>
+      <div className={styles.blogContainer} id="blogs">
         <h2 className={styles.blogHeading}>The Project Blog</h2>
         <div className={styles.blogSubheading}>
           Designs and layouts to help you with your app.

@@ -26,6 +26,7 @@
 .navLink {
   padding: 0.5rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navLinkSearch {
@@ -65,4 +66,3 @@ ul > li {
     display: block;
   }
 }
-

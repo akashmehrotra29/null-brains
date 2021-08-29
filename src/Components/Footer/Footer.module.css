@@ -14,6 +14,15 @@
   font-size: 0.8rem;
 }
 
+.navigation > div > .hashLink {
+  text-decoration: none;
+  color: var(--light-grey);
+  &:visited,
+  &:link {
+    text-decoration: none;
+  }
+}
+
 .paddingTop1 {
   padding-top: 1.5rem;
 }

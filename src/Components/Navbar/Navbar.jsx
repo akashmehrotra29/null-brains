@@ -1,6 +1,7 @@
 import styles from "./Navbar.module.css";
 import { BsSearch, BsJustify } from "react-icons/bs";
 import { useState } from "react";
+import { NavHashLink } from "react-router-hash-link";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,10 +21,18 @@ export const Navbar = () => {
           <div>nullBrains</div>
         </div>
         <div className={styles.navigationOptions}>
-          <div className={styles.navLink}>Home</div>
-          <div className={styles.navLink}>Features</div>
-          <div className={styles.navLink}>Blog</div>
-          <div className={styles.navLink}>Contact</div>
+          <NavHashLink smooth to={"/#home"} v className={styles.navLink}>
+            Home
+          </NavHashLink>
+          <NavHashLink smooth to={"/#features"} className={styles.navLink}>
+            Features
+          </NavHashLink>
+          <NavHashLink smooth to={"/#blogs"} className={styles.navLink}>
+            Blog
+          </NavHashLink>
+          <NavHashLink smooth to={"/#contact"} className={styles.navLink}>
+            Contact
+          </NavHashLink>
           <div className={`${styles.navLink} ${styles.navLinkSearch}`}>
             <BsSearch />
           </div>

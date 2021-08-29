@@ -6,17 +6,26 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
 
 export const Footer = () => {
   return (
     <>
-      <div className={styles.footerContainer}>
+      <div className={styles.footerContainer} id="contact">
         <div className={styles.navigation}>
           <div>About</div>
-          <div>Blog</div>
+          <div>
+            <HashLink smooth to={"/#blogs"} className={styles.hashLink}>
+              Blog
+            </HashLink>
+          </div>
           <div>Team</div>
           <div>Pricing</div>
-          <div>Contact</div>
+          <div>
+            <HashLink smooth to={"/#contact"} className={styles.hashLink}>
+              Contact
+            </HashLink>
+          </div>
           <div>Terms</div>
         </div>
         <div className={`${styles.navigation} ${styles.paddingTop2}`}>
